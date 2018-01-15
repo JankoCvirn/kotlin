@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">KotlinKedit</string>
+    <string name="pressed">Pressed</string>
+</resources>
