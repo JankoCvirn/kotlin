@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
 
         setSupportActionBar(toolbar)
 
-        changeFragment(FargmentNewsFragment())
+        changeFragment(NewsFragment())
 
 
     }

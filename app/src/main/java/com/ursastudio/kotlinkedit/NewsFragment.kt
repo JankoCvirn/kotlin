@@ -7,10 +7,11 @@ import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.ursastudio.kotlinkedit.adapter.NewsAdapter
 import commons.inflate
 import kotlinx.android.synthetic.main.fargment_news.*
 
-class FargmentNewsFragment : Fragment() {
+class NewsFragment : Fragment() {
 
 
     override fun onCreateView(inflater: LayoutInflater?, container: ViewGroup?,
@@ -24,7 +25,15 @@ class FargmentNewsFragment : Fragment() {
 
         newsRecycler?.setHasFixedSize(true)
         newsRecycler?.layoutManager = LinearLayoutManager(context) as RecyclerView.LayoutManager?
+        intiAdapter()
 
+    }
+
+    private fun intiAdapter(){
+
+        if (newsRecycler.adapter==null){
+            newsRecycler.adapter=NewsAdapter()
+        }
     }
 
 }

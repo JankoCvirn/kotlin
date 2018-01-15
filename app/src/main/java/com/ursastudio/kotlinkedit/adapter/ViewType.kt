@@ -5,5 +5,5 @@ package com.ursastudio.kotlinkedit.adapter
  */
 interface ViewType {
 
-    fun getView():Int
+    fun getViewType():Int
 }
