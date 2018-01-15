@@ -1,10 +1,12 @@
 package com.ursastudio.kotlinkedit.adapter
 
 import android.support.v7.widget.RecyclerView
+import android.util.Log
 import android.view.ViewGroup
 import com.ursastudio.kotlinkedit.R
 import com.ursastudio.kotlinkedit.model.NewsItem
 import commons.inflate
+import commons.load
 import commons.loadImage
 import kotlinx.android.synthetic.main.item_news.view.*
 
@@ -32,6 +34,8 @@ class NewsDelegateAdapter:ViewTypeDelegateAdapter {
             textViewTitle.text=item.title
             textViewCounter.text= "${item.numComments}"
             imageView2.loadImage(item.thumbnail)
+            Log.d("TEST",item.thumbnail+"|"+item.url)
+            imageView2.load(item.thumbnail) { request -> request.centerCrop() }
         }
 
     }
