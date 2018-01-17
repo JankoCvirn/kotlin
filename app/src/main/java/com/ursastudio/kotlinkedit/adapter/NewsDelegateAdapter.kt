@@ -5,9 +5,9 @@ import android.util.Log
 import android.view.ViewGroup
 import com.ursastudio.kotlinkedit.R
 import com.ursastudio.kotlinkedit.model.NewsItem
-import commons.inflate
-import commons.load
-import commons.loadImage
+import com.ursastudio.kotlinkedit.commons.inflate
+import com.ursastudio.kotlinkedit.commons.load
+import com.ursastudio.kotlinkedit.commons.loadImage
 import kotlinx.android.synthetic.main.item_news.view.*
 
 /**

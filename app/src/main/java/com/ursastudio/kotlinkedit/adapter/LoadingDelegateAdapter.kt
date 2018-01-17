@@ -3,7 +3,7 @@ package com.ursastudio.kotlinkedit.adapter
 import android.support.v7.widget.RecyclerView
 import android.view.ViewGroup
 import com.ursastudio.kotlinkedit.R
-import commons.inflate
+import com.ursastudio.kotlinkedit.commons.inflate
 
 /**
  * Created by jankocvirn on 15/01/2018.

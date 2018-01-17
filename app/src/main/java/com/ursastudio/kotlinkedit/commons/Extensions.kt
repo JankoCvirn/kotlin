@@ -1,6 +1,6 @@
 @file:JvmName("ExtensionUtils")
 
-package commons
+package com.ursastudio.kotlinkedit.commons
 
 import android.content.Context
 import android.text.TextUtils
@@ -9,7 +9,6 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import com.squareup.picasso.Picasso
-import com.squareup.picasso.Picasso.*
 import com.squareup.picasso.RequestCreator
 import com.ursastudio.kotlinkedit.R
 
